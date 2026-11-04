@@ -1,0 +1,6 @@
+﻿metric_id,metric,eligible,linkage,k,outliers_merged,silhouette,min_cluster,max_cluster,share_pairs_no_overlap,ARI_hidden,NMI_hidden,NMI_unused_feature
+U1,Говера (анкета),2000,complete,5,False,0.076,47,1099,0.0,0.003,0.031,
+U2,Евклідова (анкета),2000,average,3,True,0.168,465,796,0.0,-0.0,0.002,
+U3,Жаккара (теги інтересів),1940,average,9,False,0.243,179,278,0.811,0.71,0.695,0.291
+U4,Косинусна (взаємодії),1208,average,9,False,0.02,94,178,0.442,0.45,0.463,0.197
+U5,Єнсена–Шеннона (профіль тем),1208,average,9,False,0.312,105,202,0.0,0.684,0.691,0.286

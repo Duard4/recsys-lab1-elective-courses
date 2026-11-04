@@ -1,0 +1,84 @@
+{
+  "raw_rows": {
+    "users": 2030,
+    "courses": 3045,
+    "interactions": 96116
+  },
+  "raw_missing_pct": {
+    "users": {
+      "age": 2.96,
+      "gender": 2.02,
+      "city": 3.0,
+      "study_year": 1.97,
+      "gpa": 4.78,
+      "preferred_format": 4.09,
+      "career_goal": 3.94,
+      "interests": 2.96
+    },
+    "courses": {
+      "description": 2.0,
+      "credits": 1.97,
+      "difficulty": 2.96,
+      "language": 1.48,
+      "instructor": 3.02,
+      "weekly_hours": 4.01,
+      "max_students": 4.76,
+      "keywords": 3.02
+    },
+    "interactions": {
+      "timestamp": 1.0,
+      "rating": 94.13,
+      "comment_text": 97.19,
+      "dwell_time_sec": 24.98,
+      "device": 2.99
+    }
+  },
+  "raw_missing_cells_pct_users": 2.14,
+  "raw_missing_cells_pct_courses": 1.45,
+  "users_exact_duplicates": 30,
+  "users_after_dedup": 2000,
+  "courses_exact_duplicates": 45,
+  "courses_after_dedup": 3000,
+  "interactions_exact_duplicates": 1420,
+  "interactions_orphans_removed": 0,
+  "timestamp_missing": 947,
+  "device_missing": 2841,
+  "dwell_missing_clicks": 2441,
+  "activity_thresholds": {
+    "passive_max": 16.0,
+    "active_min": 73.0
+  },
+  "popularity_thresholds": {
+    "rare_max": 6.0,
+    "popular_min": 78.0
+  },
+  "final": {
+    "users": 2000,
+    "courses": 3000,
+    "interactions": 94696,
+    "pairs": 48024,
+    "users_with_interactions": 1840,
+    "courses_with_interactions": 2820,
+    "ratings_pairs": 5575,
+    "matrix_density_pct": 0.8
+  },
+  "interaction_types": {
+    "click": 73477,
+    "favorite": 6832,
+    "enroll": 6156,
+    "rating": 5575,
+    "comment": 2656
+  },
+  "user_groups": {
+    "звичайні": 899,
+    "пасивні": 659,
+    "активні": 282,
+    "нові (0)": 160
+  },
+  "course_groups": {
+    "звичайні": 1403,
+    "рідкісні": 992,
+    "популярні": 425,
+    "нові (0)": 180
+  }
+}

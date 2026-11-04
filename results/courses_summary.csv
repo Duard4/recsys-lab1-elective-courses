@@ -1,0 +1,6 @@
+﻿metric_id,metric,eligible,linkage,k,outliers_merged,silhouette,min_cluster,max_cluster,share_pairs_no_overlap,ARI_hidden,NMI_hidden,NMI_unused_feature
+C1,Косинусна (TF-IDF описів),3000,average,10,False,0.052,96,451,0.187,0.691,0.716,0.716
+C2,Говера (атрибути),3000,complete,8,False,0.07,186,722,0.0,0.013,0.037,
+C3,Жаккара (ключові слова),2910,average,11,False,0.059,109,441,0.972,0.602,0.65,0.65
+C4,Косинусна (взаємодії),1170,average,9,True,0.035,93,173,0.4,0.671,0.662,0.662
+C5,Жаккара (спільні користувачі),1170,average,4,True,0.015,163,481,0.4,0.372,0.559,0.559
